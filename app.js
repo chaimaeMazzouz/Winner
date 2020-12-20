@@ -64,7 +64,7 @@ function Run() {
   lastRun = performance.now();
 
   //ctx.clearRect(0, 0, cwidth, cheight);
-  ctx.fillStyle = " rgb(255, 255, 255)";
+  ctx.fillStyle = "rgba(255, 255, 255, 0.1)";
   ctx.fillRect(0, 0, cwidth, cheight);
 
   if (shells.length < 10 && Math.random() > 0.96) {
