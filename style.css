@@ -23,24 +23,29 @@
   color: #50abf1;
   outline: none;
 }
-
-.login button {
-  display: block;
-  padding: 0.3em;
-  margin: 10px;
-  width: 80%;
+.btnWin {
+  position: absolute;
+  display: flex;
+  margin-top: 300px;
+  margin-left: 240px;
+}
+.btnWin button {
+  padding: 10px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  width: 150px;
   background-color: #50abf1;
   color: #fff;
-  font-family: "Roboto", helvetica, arial, sans-serif;
-  font-size: 1.5em;
-  font-weight: 600;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 20px;
+  font-weight: 500;
   border: none;
   outline: none;
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 5px 5px 5px #888888;
 }
-.login button:hover {
+.btnWin button:hover {
   box-shadow: none;
 }
 
@@ -99,7 +104,7 @@ canvas {
   display: block;
   max-width: 207px;
   margin: 35%;
-  margin-top: 20%;
+  margin-top: 16%;
 }
 /**/
 .winner-name {
